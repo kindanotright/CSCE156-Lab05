@@ -1,0 +1,57 @@
+package com.cinco.payroll;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class DataLoader {
+
+	public static final String FILE_PATH = "data/employee.csv";
+
+	public static List<Employee> loadEmployees() {
+
+		List<Employee> result = new ArrayList<Employee>();
+
+		try (Scanner s = new Scanner(new File(FILE_PATH))) {
+
+			int numRecords = Integer.parseInt(s.nextLine());
+			for (int i = 0; i < numRecords; i++) {
+
+				String line = s.nextLine();
+				if (!line.trim().isEmpty()) {
+					Employee e = null;
+					String tokens[] = line.split(",");
+					String id = tokens[1];
+					String lastName = tokens[2];
+					String firstName = tokens[3];
+					String title = tokens[4];
+					double annualSalary = 0.0, hourlyPayRate = 0.0, hoursWorked = 0.0;
+					if (tokens.length == 6) {
+						hourlyPayRate = Double.parseDouble(tokens[5]);
+						hoursWorked = Double.parseDouble(tokens[6]);
+					} else if (tokens.length == 5) {
+						annualSalary = Double.parseDouble(tokens[5]);
+					}
+
+					if (tokens[0].equals("E")) {
+						// TODO: modify this:
+						e = new Employee();
+					} else if (tokens[0].equals("S")) {
+						// TODO: modify this:
+						e = new Employee();
+					} else if (tokens[0].equals("T")) {
+						// TODO: modify this:
+						e = new Employee();
+					}
+
+					result.add(e);
+				}
+			}
+		} catch (Exception e) {
+			throw new RuntimeException(e);
+		}
+
+		return result;
+	}
+}

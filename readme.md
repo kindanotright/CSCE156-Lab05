@@ -147,8 +147,8 @@ Observe that:
 
 ### 3.1 Class Design & Inheritance 
 
-You have been provided a partially completed program that parses a data
-file (in `PayrollReport.java`) and creates `Employee` instances. However, the `Employee` 
+You have been provided a partially completed program that parses a CSV data
+file (in `DataLoader.java`) and creates `Employee` instances. However, the `Employee` 
 class is empty.  You will need to implement this class and any 
 relevant subclass(es) to complete the program.
 
@@ -237,7 +237,7 @@ errors and completely debug your programs.
 
 ### Advanced Activity (Optional) 
 
-1.  The `PayrollReport` class uses an `ArrayList` to hold instances of 
+1.  The `DataLoader` class uses an `ArrayList` to hold instances of 
     `Employee` objects. When it generates
     the report, it does so in the order that the instances were parsed
     from the data file. Change this so that the payroll report prints in
@@ -249,8 +249,8 @@ errors and completely debug your programs.
     workflows, use cases, etc.). Sometimes design of systems is done in
     UML and then tools can automatically generate Java (or other
     language) code conforming to the design. Conversely, UML diagrams
-    can be automatically generated
-    from an existing code base using various tools. In this exercise you
+    can be automatically generated from an existing code base 
+    ("reverse engineering") using various tools. In this exercise you
     will familiarize yourself with UML and use such a tool to generate a
     UML diagram for your design.
 
@@ -259,7 +259,7 @@ errors and completely debug your programs.
 
     -   Install an Eclipse plugin for UML and generate a UML diagram for
         your project. The choice is yours, but one (free) possibility is
-        ObjectAid UML:
+        ObjectAid UML (unfortuntely, as of the end of 2021, this project is defunct):
 
         -   Installation instructions:  
             <https://www.objectaid.com/install-objectaid>
@@ -267,4 +267,4 @@ errors and completely debug your programs.
         -   Generate class diagram instructions:  
             <http://www.objectaid.com/class-diagram>
 
-
+            http://evverythingatonce.blogspot.com/2016/04/tech-talk-reverse-uml-generator-in.html
