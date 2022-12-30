@@ -258,13 +258,6 @@ errors and completely debug your programs.
         <http://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/>
 
     -   Install an Eclipse plugin for UML and generate a UML diagram for
-        your project. The choice is yours, but one (free) possibility is
-        ObjectAid UML (unfortuntely, as of the end of 2021, this project is defunct):
-
-        -   Installation instructions:  
-            <https://www.objectaid.com/install-objectaid>
-
-        -   Generate class diagram instructions:  
-            <http://www.objectaid.com/class-diagram>
-
-            http://evverythingatonce.blogspot.com/2016/04/tech-talk-reverse-uml-generator-in.html
+        your project. We have provided a download and instructions here:
+        <https://github.com/cbourke/ComputerScienceII/tree/master/resources/objectaid#objectaid-eclipse-plugin>
+        
