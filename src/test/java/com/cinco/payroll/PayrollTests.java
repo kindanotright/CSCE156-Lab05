@@ -103,7 +103,7 @@ public class PayrollTests {
 		assertTrue(new ArrayList<>(Arrays.asList(Employee.class.getInterfaces())).contains(Payable.class),
 				"Employee must implement the Payable Interface");
 		assertTrue(new ArrayList<>(Arrays.asList(Supplier.class.getInterfaces())).contains(Payable.class),
-				"Employee must implement the Payable Interface");
+				"Supplier must implement the Payable Interface");
 		assertEquals(300, new Supplier("Google", 300).getNetPay(), 0.01,
 				"Check that your suppliers are being paid correctly");
 	}
