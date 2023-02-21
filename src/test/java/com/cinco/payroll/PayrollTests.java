@@ -87,11 +87,11 @@ public class PayrollTests {
 		assertEquals(4, SalaryEmployee.class.getDeclaredMethods().length, "Must declare methods as in the UML diagram");
 		assertTrue(Employee.class.isAssignableFrom(SalaryEmployee.class), "SalaryEmployee must extend Employee");
 
-		SalaryEmployee staff = new SalaryEmployee("011F42", "Tim", "Heidecker", "President", 120000);
-		assertEquals(2307.69, staff.getGrossPay(), 0.01, "Check how your SalaryEmployee is calculating net pay");
-		assertEquals(461.54, staff.getTaxes(), 0.01, "Check the salary tax calculation ");
-		assertEquals(1946.15, staff.getNetPay(), 0.01, "Check how your Employee is calculating net pay");
-		assertEquals("Salary", staff.getType(), "Are you sure you are storing the correct type?");
+		SalaryEmployee salary = new SalaryEmployee("011F42", "Tim", "Heidecker", "President", 120000);
+		assertEquals(2307.69, salary.getGrossPay(), 0.01, "Check how your SalaryEmployee is calculating net pay");
+		assertEquals(461.54, salary.getTaxes(), 0.01, "Check the salary tax calculation ");
+		assertEquals(1946.15, salary.getNetPay(), 0.01, "Check how your Employee is calculating net pay");
+		assertEquals("Salary", salary.getType(), "Are you sure you are storing the correct type?");
 	}
 
 	/**
