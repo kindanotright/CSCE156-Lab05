@@ -232,7 +232,14 @@ entities/objects in their system that are, in some way, payable.
 
 * Test your programs using the provided JUnit test suite(s).  Fix any
 errors and completely debug your programs.
-* Submit *all* of your source files through webhandin.
+* Submit the following source files through webhandin:
+  * `Employee.java`
+  * `Supplier.java`
+  * `HourlyEmployee.java`
+  * `SalaryEmployee.java`
+  * `Temporary.java`
+  * `Payable.java`
+  * `Staff.java`
 * Run the grader and verify the output to complete your lab.
 
 ### Advanced Activity (Optional) 
