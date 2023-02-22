@@ -86,3 +86,6 @@ figures/_minted*
 
 #
 .DS_Store
+
+# ignore solution
+src/solution/java
