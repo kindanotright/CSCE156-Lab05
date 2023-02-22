@@ -37,13 +37,13 @@ public class DataLoader {
 					}
 
 					if (tokens[0].equals("E")) {
-						// TODO: modify this:
+						// TODO: modify this to create a SalaryEmployee
 						e = new Employee();
 					} else if (tokens[0].equals("S")) {
-						// TODO: modify this:
+						// TODO: modify this to create a Staff employee
 						e = new Employee();
 					} else if (tokens[0].equals("T")) {
-						// TODO: modify this:
+						// TODO: modify this to create a Temporary employee
 						e = new Employee();
 					}
 
