@@ -1,9 +1,11 @@
 # Computer Science II
 ## Lab 5.0 - Inheritance
+[School of Computing](https://computing.unl.edu)  
+[College of Engineering](https://engineering.unl.edu/)  
+[University of Nebraska-Lincoln](https://unl.edu)  
+[University of Nebraska-Omaha](https://unomaha.edu)  
 
 An introduction to using inheritance in the Java programming language.
-
-This is a lab used in Computer Science II (CSCE 156, CSCE 156H) in the [Department of Computer Science & Engineering](https://cse.unl.edu) at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ## Overview
 
@@ -232,7 +234,7 @@ entities/objects in their system that are, in some way, payable.
 
 * Test your programs using the provided JUnit test suite(s).  Fix any
 errors and completely debug your programs.
-* Submit the following source files through webhandin:
+* Submit the following source files:
   * `Employee.java`
   * `Supplier.java`
   * `HourlyEmployee.java`
