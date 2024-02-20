@@ -244,7 +244,12 @@ errors and completely debug your programs.
   * `Staff.java`
 * Run the grader and verify the output to complete your lab.
 
-### Advanced Activity (Optional) 
+### Challenge Activity (Optional) 
+
+Challenge activities at the end of labs are completely optional and a good
+way to get more practice.  They are not worth extra credit. You should only
+try these activities after you have completed and submitted your lab.  Do
+not submit a new copy with these changes.
 
 1.  The `DataLoader` class uses an `ArrayList` to hold instances of 
     `Employee` objects. When it generates
