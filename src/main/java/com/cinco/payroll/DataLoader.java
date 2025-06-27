@@ -37,14 +37,18 @@ public class DataLoader {
 					}
 
 					if (tokens[0].equals("E")) {
-						// TODO: modify this to create a SalaryEmployee
-						e = new Employee();
+						// TODO: modify this to create a SalaryEmployee 
+						// I believe this is completed
+						e = new SalaryEmployee(id, lastName, firstName, title, annualSalary);
 					} else if (tokens[0].equals("S")) {
 						// TODO: modify this to create a Staff employee
-						e = new Employee();
+						// I believe this is completed
+						e = new Staff(id, lastName, firstName, title, hourlyPayRate, hoursWorked);
 					} else if (tokens[0].equals("T")) {
 						// TODO: modify this to create a Temporary employee
-						e = new Employee();
+						// I believe this is completed
+						e = new Temporary(id, firstName, lastName, title, hourlyPayRate,
+								hoursWorked) ;
 					}
 
 					result.add(e);
